@@ -82,7 +82,7 @@ img{
 }
 
 .mission{
-  background-color: aquamarine;
+  background-color: #E0FFFF;
   width: 40%;
   padding: 25px;
   border: none;
@@ -92,7 +92,7 @@ img{
 }
 
 .vision{
-  background-color: rgb(221, 226, 211);
+  background-color: #FFF5EE;
   width: 40%;
   padding: 25px;
   border: none;
@@ -102,7 +102,7 @@ img{
 }
 
 .goals{
-  background-color: rgb(92, 119, 131);
+  background-color: #cceeff;
   width: 40%;
   padding: 25px;
   border: none;
