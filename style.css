@@ -1,3 +1,4 @@
+
 /* import fonts */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
@@ -5,12 +6,22 @@
 
 body{
   font-family: 'Roboto', sans-serif;
-
+  padding: 0;
+  margin: 0;
 }
 
 img{
   width: 180px;
   height: 180px;
+}
+
+.btn_primary{
+  border: none;
+  border-radius: 3px;
+  background-color: #6495ED;
+  padding: 15px;
+  text-decoration: none;
+  color: #ffffff; 
 }
 
 /* mission title section starts */
@@ -52,14 +63,7 @@ img{
   padding-left: 16px;
   
 }
-.focus_text a{
-  border: none;
-  border-radius: 3px;
-  background-color: #6495ED;
-  padding: 15px;
-  text-decoration: none;
-  color: #ffffff;
-}
+
 .container{
   max-width: 80%;
   margin: auto;
@@ -125,17 +129,10 @@ img{
   line-height: 30px;
 }
 
-.mission_doc_text a{
-  border: none;
-  border-radius: 3px;
-  background-color: #6495ED;
-  padding: 20px;
-  text-decoration: none;
-  color: #ffffff;
-}
 .mission_doc_text p{
   padding-bottom:20px ;
 }
+
 .mission_doc_text h1{
   font-size: 45px;
   line-height: 55px;
@@ -170,17 +167,56 @@ img{
   height: 400px;
 }
 
-.mission_community_text a{
-  border: none;
-  border-radius: 3px;
-  background-color: #6495ED;
-  padding: 20px;
-  text-decoration: none;
-  color: #ffffff;
-}
-
 .mission_community_text p{
   padding-bottom:20px ;
 }
 /* mission community section ends */
 
+/* mission extra starts  */
+
+.future h1{
+  font-size: 45px;
+  text-align: center;
+}
+.build_future{
+  display: flex;
+}
+
+.tasks{
+  border: none;
+  width: 50%;
+  padding: 20px 20px 20px 2px;
+}
+
+.tasks img{
+  width: 300px;
+  height: 300px;
+  border: none;
+  border-radius: 10px;
+}
+
+.tasks a{
+  text-decoration: none;
+  color: #2f71ec;
+}
+
+/* mission extra ends  */
+
+/* footer */
+
+.mission_footer{
+  background-color: #000000;
+  height:150px;
+  width:100%;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 20px;
+}
+
+.mission_footer h1{
+  font-family: 'Lobster', cursive;
+}
+
+.mission_footer a{
+  text-decoration: none;
+}
