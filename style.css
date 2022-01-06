@@ -1,37 +1,77 @@
+/* import fonts */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap');
 
 body{
   font-family: 'Roboto', sans-serif;
 
 }
 
-
 img{
   width: 180px;
   height: 180px;
 }
 
+/* mission title section starts */
+
 .focus{
-  border-left: 3px solid red;
+  display: flex;
+}
+.focus_img img{
+  width: 480px;
+  height: 480px;
+}
+
+.diff_color{
+  color: #6495ED;
+}
+
+.focus_img{
+  width: 50%;
+  padding-left: 200px;
+  padding-bottom: 70px;
+}
+
+.focus_text{
+  width: 50%;
   font-size: 20px;
   padding-left: 16px;
-  height: 145px;
+}
+
+.focus_text p{
+  padding:20px 0;
+}
+
+.focus_text h1{
+  font-size: 49px;
+  font-family: 'Lobster', cursive;
+  line-height: 80px;
+  border-left: 2px solid red;
+  height:150px;
+  padding-left: 16px;
   
 }
-
-.focus h1{
-  font-size: 49px;
+.focus_text a{
+  border: none;
+  border-radius: 3px;
+  background-color: #6495ED;
+  padding: 15px;
+  text-decoration: none;
+  color: #ffffff;
 }
-
 .container{
   max-width: 80%;
   margin: auto;
 }
 .top h2{
   text-align: center;
-  font-size: 40px;
+  font-size: 45px;
 }
+
+/* mission title section ends */
+
+/* top section starts */
 
 .mission_goals{
   display: flex;
@@ -39,7 +79,7 @@ img{
 
 .mission{
   background-color: aquamarine;
-  width: 50%;
+  width: 40%;
   padding: 25px;
   border: none;
   border-radius: 30px;
@@ -48,7 +88,7 @@ img{
 
 .vision{
   background-color: rgb(221, 226, 211);
-  width: 50%;
+  width: 40%;
   padding: 25px;
   border: none;
   border-radius: 30px;
@@ -57,8 +97,90 @@ img{
 
 .goals{
   background-color: rgb(92, 119, 131);
-  width: 50%;
+  width: 40%;
   padding: 25px;
   border: none;
   border-radius: 30px;
 }
+/* top section ends */
+
+/* mission documentation starts */
+
+.mission_doc{
+  display: flex;
+}
+
+.mission_img{
+  padding-top:100px;
+  padding-right: 100px;
+}
+.mission_img img{
+  width: 400px;
+  height: 400px;
+}
+
+.mission_doc_text{
+  padding-top:100px;
+  width: 50%;
+  line-height: 30px;
+}
+
+.mission_doc_text a{
+  border: none;
+  border-radius: 3px;
+  background-color: #6495ED;
+  padding: 20px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.mission_doc_text p{
+  padding-bottom:20px ;
+}
+.mission_doc_text h1{
+  font-size: 45px;
+  line-height: 55px;
+}
+
+/*mission documentation ends*/
+
+/* mission community section starts */
+
+.mission_community{
+  display: flex;
+}
+
+.mission_community_text h1{
+  font-size: 45px;
+  line-height: 55px;
+}
+
+.mission_community_text{
+  padding-top:100px;
+  width: 50%;
+  line-height: 30px;
+}
+
+.mission_community_img{
+  padding-top:100px;
+  padding-left: 100px;
+}
+
+.mission_community_img img{
+  width: 400px;
+  height: 400px;
+}
+
+.mission_community_text a{
+  border: none;
+  border-radius: 3px;
+  background-color: #6495ED;
+  padding: 20px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.mission_community_text p{
+  padding-bottom:20px ;
+}
+/* mission community section ends */
+
